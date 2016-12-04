@@ -1,0 +1,12 @@
+[package]
+name = "rnn_example"
+version = "0.1.0"
+authors = ["armandli <armand.li@hotmail.com>"]
+
+[dependencies]
+rand = "*"
+rulinalg = "*"
+rayon = "*"
+
+[profile.dev]
+opt-level = 3
